@@ -17,6 +17,7 @@ app.use(express.static('public'))
 // });
 
 //404 error
+
 app.use(function(req, res) {
   res.send("404: Page not found", 404);
 });
